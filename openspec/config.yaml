@@ -1,13 +1,13 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+context: |
+  Tech stack: Python backend (uvicorn + asgineer + SQLite via itemdb) with frontend in Python compiled to JavaScript via PScript.
+  Package: timetagger (setup.py), runtime deps in requirements.txt.
+  Key directories: timetagger/ (main package), timetagger/app/ (frontend PScript), tests/ (pytest).
+  Frontend code in timetagger/app/*.py compiles to JS — browser APIs are valid there.
+  Formatting: Black (invoke format); linting: flake8 (invoke lint); tests: pytest tests/.
+  Commits: Conventional Commits with gitmoji.
+  Don't commit secrets, don't use --force flags.
 
 # Per-artifact rules (optional)
 # Add custom rules for specific artifacts.

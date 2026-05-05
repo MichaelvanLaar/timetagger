@@ -6,6 +6,7 @@ Open-source time-tracker web app. Python backend (uvicorn/asgineer/SQLite) + fro
 
 | File | Purpose |
 |------|---------|
+| `CLAUDE.md` | Project instructions, loaded every message |
 | `.claude/settings.json` | Permissions, hooks, environment variables |
 | `.claude/skills/cc-init/SKILL.md` | Skill: bootstrap Claude Code config for new projects |
 | `.claude/skills/cc-optimize/SKILL.md` | Skill: audit and optimize existing Claude Code config |
@@ -19,7 +20,6 @@ Open-source time-tracker web app. Python backend (uvicorn/asgineer/SQLite) + fro
 | `.github/workflows/dockerimage.yml` | Docker image build workflow |
 | `.gitignore` | Git ignore patterns |
 | `.readthedocs.yaml` | Read the Docs build configuration |
-| `CLAUDE.md` | Project instructions, loaded every message |
 | `requirements.txt` | Runtime dependencies |
 | `scripts/sync-config-table.sh` | Syncs Key Config Files table in CLAUDE.md |
 | `setup.py` | Package metadata and install config |

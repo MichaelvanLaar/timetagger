@@ -330,3 +330,7 @@ When a project gains Husky or another hook manager after `/cc-init` was used, th
 - Don't modify user-level files (`~/.claude/CLAUDE.md`, `~/.claude.json`) without explicit permission.
 - Don't remove functionality. If something serves a purpose, keep it — just optimize how it's expressed.
 - Don't make the config dependent on tools or servers the user hasn't installed.
+
+## Feedback
+
+Did this output meet your expectations? If not, describe what was missing or wrong and I'll log a correction to `.claude/learnings.md`.
