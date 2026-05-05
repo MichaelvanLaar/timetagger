@@ -131,3 +131,7 @@ dmypy.json
 
 # docker datadir
 _timetagger/
+
+# Claude Code — personal files
+.claude/settings.local.json
+.claude/local.md
